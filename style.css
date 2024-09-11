@@ -1,0 +1,108 @@
+@charset "UFT-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fot1:Arial,  sans-serif;
+    --font2: fantasy, serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 150px;
+    border: 1px solid white;
+    }
+header h1{
+    font-family: var(--fot1);
+    padding-top: 40px;
+    font-size: 6.5vw;
+}
+header p{
+    font-family: var(--font1);
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+section{
+    font-family: var(--font2);
+font-size: 32px;
+line-height: 45px;
+text-shadow: 0px 0px 1px black;
+font-size: 4.5vw;
+
+}
+section.difi{
+background-color: #706f6f;
+color: white;
+padding: 10px;
+}
+.difi p{
+background-color: rgba(0, 0, 0, 0.568);
+max-width: 400px;
+padding: 20px;
+
+
+}
+section.normal{
+    padding: 20px;
+}
+.normal p{
+    max-width: 400px;
+}
+
+.imagem{
+  background-repeat: no-repeat;  
+  background-position: center center;
+  background-attachment: fixed;
+  box-shadow: inset 1px 1px 1px 1px black;
+  background-size: cover;
+}
+.img1{
+    background-image: url('g1.jpg');
+}
+.img2{
+    background-image: url('g2.jpg');
+}
+
+
+table,tbody,thead,tfoot{
+    border-collapse: collapse;
+ width: 90vw;
+ height: 5vh;
+    
+}
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+
+}
+thead th{
+    background-color: chocolate;
+    font-weight: bolder;
+    text-shadow: 0px 0px 1px 0px black ;
+    font-size: 18px;
+    position: sticky;
+    top: 0px;
+    border: 3px solid black;
+    box-shadow: 1px 1px 1px black;
+    
+}
+div table{
+    margin: auto;
+    overflow: auto;
+}
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 10px;
+    font-weight: bolder;
+    border: 1px solid white;
+    }
